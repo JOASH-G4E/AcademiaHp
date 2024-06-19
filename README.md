@@ -1,2 +1,2 @@
 # AcademiaHp
-Check out courses at academiaHp
+Check out courses at AcademiaHp
