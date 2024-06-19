@@ -1,0 +1,384 @@
+body {
+    background-color: snow;
+    color: black;
+    height: 2700px;
+}
+
+#Academia {
+    color: blue;
+    font-family: serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 60px;
+    margin: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: snow;
+}
+#next{
+    color: blue;
+    font-family: serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 40px;
+    margin: 5px;
+}
+
+#courses {
+    color: blue;
+    font-family: serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 45px;
+    margin: 10px;
+    
+
+}
+
+#topMenu {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: inline-block;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin-top: -50px;
+    background-color: transparent;
+
+}
+
+
+
+#Jacob {
+    width: 400px;
+    height: 500px;
+    float: right;
+    margin-top: -400px;
+    margin-left: -900px !important;
+}
+
+ul{
+    align-items: center;
+    gap: 20px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+li{
+    display: inline-block;
+    margin: 15px;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+#lo{
+
+    border: 1px;
+    border-radius: 15px;
+    font-size: 22px;
+    align-self: center;
+    padding: 5px;
+    caret-color: transparent;
+    color: blueviolet;
+    height: 30px;
+    margin: 5px;
+
+}
+
+#lo:hover {
+    background-color: lightsteelblue;
+    color: blue;
+    cursor: pointer;
+}
+
+li:hover {
+    color: steelblue;
+    cursor: pointer;
+}
+
+#pop {
+    width: 700px;
+    height: 200px;
+    margin: 20px;
+    margin-top: 100px;
+    font-family: serif;
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: 2px;
+    
+}
+
+#pop:hover{
+    cursor: pointer;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.topcourses {
+
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+
+.topcourses:hover {
+    cursor: pointer;
+
+}
+
+.Aclass {
+
+    font-size: 24px;
+
+}
+
+
+
+#first_Careerimage,
+#second_Careerimage,
+#third_Careerimage {
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+
+
+}
+
+#first_Careerimage:hover,
+#second_Careerimage:hover,
+#third_Careerimage:hover {
+
+    transition: 500ms ease;
+    width: 315px;
+    height: 315px;
+
+}
+
+#first_Careerimage:not(:hover),
+#second_Careerimage:not(:hover),
+#third_Careerimage:not(:hover){
+
+    transition: 500ms ease;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+
+
+}
+
+
+
+
+#first_Careerimage:hover~ .one, #second_Careerimage:hover~ .one, #third_Careerimage:hover~ .one {
+    transition: 2000ms ease-in-out;
+    visibility: visible;
+    opacity: 1;
+}
+
+#infoboy{
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Georgia;
+    color:chocolate;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 10px;
+
+}
+
+.one {
+    transition: 50ms ease;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+    visibility: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: opacity 0s;
+    transition-property: opacity, visibility;
+    margin-top: -70px;
+}
+
+
+.text-animation {
+    animation: fade-in-out 5s ease-in-out infinite;
+}
+
+@keyframes fade-in-out {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+span{
+    font-size: 30px;
+    font-weight: bolder;
+    color: palevioletred;
+}
+
+#tk{
+
+    display: inline-block;
+    margin: 15px;
+    justify-content: flex-end;
+    font-size: 20px;
+
+    
+}
+
+h4{
+    font-size: 30px;
+    margin: 30px;
+    margin-top: 250px;
+}
+
+
+
+#oon{
+    color: coral;
+    font-size: 35px;
+    font-family: Georgia;
+    font-weight: bolder;
+    font-style: italic;
+    margin: 20px;
+}
+
+#oono{
+    color: crimson;
+    font-size: 35px;
+    font-family: Georgia;
+    font-weight: bolder;
+    font-style: italic;
+}
+i{
+    color: blue;
+}
+
+#bh{
+    color: cornflowerblue;
+    font-size: 35px;
+    font-weight: bolder;
+    font-style: oblique;
+    font-family: Times;
+    margin: 20px;
+}
+
+#bbh{
+
+    font-size: 35px;
+    font-family: Lucida Sans;
+    color: rgb(68, 128, 0);
+    margin: 20px;
+
+}
+strong{
+    color: rgb(0, 119, 255);
+}
+b{
+    color: rgba(255, 0, 0, 0.897);
+}
+n{
+    color: yellow;
+}
+
+a{
+
+    color: black;
+}
+
+#tk{
+    font-size: 35px;
+    font-family: Gill Sans;
+    color: peru;
+    margin: 20px;
+}
+
+#vali{
+    font-size: 25px;
+}
+
+.wildcat{
+    font-size: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 100px; 
+    margin: 70px;
+    justify-content: center;
+    width: 1200px;
+    
+}
+
+.hi{
+
+    width: 350px;
+    height: 70px;
+    font-size: 20px;
+    font-family: Georgia;
+  
+}
+
+#bold{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+button{
+
+    font-weight: bolder;
+    font-size: 19px;
+    background-color:white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    margin-top: 90px;
+
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    
+}
+#no{
+
+    font-weight: bolder;
+    font-size: 19px;
+    background-color:white;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 150px;
+    height: 30px;
+    margin-top: 120px;
+    margin-left: 1150px;
+
+}
+
+#no:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    
+}
+hr{
+
+    margin-top: 100px;
+}
+
+center{
+    margin-top: 200px;
+}
